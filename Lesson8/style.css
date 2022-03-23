@@ -70,6 +70,7 @@ body {
     position: absolute;
     top: 165px;
     right: 115px;
+ 
 }
 /*.footer__text 
     position: relative;
@@ -79,7 +80,7 @@ body {
     margin-top: 112px;
     background: #316099;
     width: 100%;
-    height: 700px;
+    height: 800px;
 }
 .footer__content {
     position: relative;
@@ -98,7 +99,11 @@ body {
     color: #FFFFFF;
     padding-top: 64px;
     padding-bottom: 64px;
-    
+    padding-left: 20px;
+}
+.footer__li {
+    padding-left: 20px;
+    width: 316px;
 }
 .footer__rights {
     font-size: 16px;
@@ -211,7 +216,6 @@ body {
     line-height: 74px;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    opacity: 0.6;
     padding-top: 51px;
     margin-bottom: 16px;
 }
@@ -403,10 +407,23 @@ hr {
     padding-left: 30px;
   
 }
+.link__style {
+    color: #1F3F68;
+    text-decoration: none;
+} 
 .mail {
     list-style-image: url(img/ic_email_24px.svg);
+        
+}  
+.list__style:visited {
+    text-decoration: line-through;
+} 
+.list__style:hover {
     
-}    
+    text-decoration: underline;
+}  
+ 
+
 /*adaptive version main page*/
 
 @media (max-width: 1024px) {
@@ -415,7 +432,8 @@ hr {
         padding-right: 32px;
     }
     .top__info {
-        background-position: right 250px;
+        background-position: right 107%;
+        
     }
     .wwd__content {
         flex-direction: column;
@@ -425,8 +443,10 @@ hr {
         margin-bottom: 32px;
     } 
     .footer__button {
-        top: 164px;
-        padding: 1px 18px;
+    
+        padding: 2px 5px;
+        width: 133px;
+        margin-top: 164px;
 
     }
     .footer__paragraph {
@@ -437,10 +457,12 @@ hr {
         line-height: 2.5;
     }
     .footer__text {
-        padding-left: 92px;
+        padding-left: 124px;
+        padding-right: 124px;
     }
     .footer__contact{
-        padding-left: 92px;
+        padding-left: 124px;
+        padding-right: 124px;
     }
 
 @media (max-width: 667px) {
@@ -548,4 +570,5 @@ hr {
     .footer__rights {
         text-align: center;
     }
+}
 }
