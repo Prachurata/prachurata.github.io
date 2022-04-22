@@ -89,7 +89,6 @@ body {
   }
 
 .text {
-
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
@@ -189,7 +188,7 @@ body {
 
         
     }
-@media (max-width: 661px) {
+@media (max-width: 768px) {
     .login {
         /*opacity: 0;*/
         display: none;
