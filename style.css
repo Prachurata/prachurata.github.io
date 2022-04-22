@@ -138,7 +138,7 @@ display: block;
 }
 
 /*adaptive version main page*/
-@media (max-width: 1600px) {
+@media (max-width: 1024px) {
 
     .menu__logo {
         margin-left: 32px;
@@ -180,7 +180,7 @@ display: block;
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 667px) {
     .login {
         display: none;
     }
