@@ -189,7 +189,7 @@ body {
     grid-template-columns: repeat(3, 360px);
     grid-template-rows: repeat(2, 582px);
     gap: 30px; 
-  
+    margin-bottom: 48px;
 }
 .main__title {
     font-weight: 400;
@@ -260,8 +260,23 @@ body {
     padding-left: 16px;
     padding-right: 16px;
 }
+.main__content_button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 95px;
+}  
+.main__button {
+    width: 212px;
+    height: 48px;
+    background: white;
+    border: 1px solid #F26376;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+}
+/*Footer block*/
 
-/*end Block Main*/
 
 /*adaptive version main page*/
 
