@@ -537,6 +537,12 @@ body {
     .footer__info {
         height: 550px;
     }
+    .input {
+        width: 245px;
+    }
+    .footer__button {
+        width: 95px;
+    }
     .footer__rights {
         
         flex-direction: column-reverse;
