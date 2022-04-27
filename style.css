@@ -208,6 +208,7 @@ body {
 .main__item {
     display: block;
     position: relative;
+    background: #F8F8F8;
 }
 
 .main__item img {
@@ -260,7 +261,7 @@ body {
     position: absolute;
     padding-left: 16px;
     padding-right: 16px;
-    background: #F8F8F8;
+  
 }
 .main__content_button {
     display: flex;
@@ -557,6 +558,15 @@ body {
     }
  
 }  
+
+/*Page Catalog */
+.header__content_catalog {
+    position: relative; 
+    background: #F1E4E6;
+    height: 148px;
+    margin-bottom: 39px;
+}
+
    
 
 
