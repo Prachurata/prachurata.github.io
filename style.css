@@ -254,11 +254,13 @@ body {
     font-size: 16px;
     line-height: 19px;
     color: #F16D7F;
+    padding-bottom: 20px;
 }
 .main__text {
     position: absolute;
     padding-left: 16px;
     padding-right: 16px;
+    background: #F8F8F8;
 }
 .main__content_button {
     display: flex;
@@ -552,11 +554,8 @@ body {
     .footer__media {
         padding-top: 43px;
         padding-bottom: 40px;
-        float: left;
     }
-    .footer__rights_text {
-        float: right;
-    }
+ 
 }  
    
 
